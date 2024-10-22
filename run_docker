@@ -139,6 +139,7 @@ CONTAINER=$(\
     -v "$PWD":/src \
     --user root \
     --shm-size 2g \
+    --network host \
     "${PYODIDE_DOCKER_IMAGE}" \
     /bin/bash .docker_home/entrypoint.sh \
 )

@@ -10,7 +10,7 @@ source:
 build:
   type: cpython_module
   script: |
-    wget ${PYTHON_ARCHIVE_URL} -O Python-${PYVERSION}.tgz
+    cp /src/cpython/downloads/Python-${PYVERSION}.tgz .
     tar -xf Python-${PYVERSION}.tgz
     cd Python-${PYVERSION}
 
