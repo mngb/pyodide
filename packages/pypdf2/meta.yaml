@@ -1,0 +1,23 @@
+package:
+  name: pypdf2
+  version: 3.0.1
+  top-level:
+    - PyPDF2
+source:
+  url: https://files.pythonhosted.org/packages/8e/5e/c86a5643653825d3c913719e788e41386bee415c2b87b4f955432f2de6b2/pypdf2-3.0.1-py3-none-any.whl
+  sha256: d16e4205cfee272fbdc0568b68d82be796540b1537508cef59388f839c191928
+  
+requirements:
+  run:
+    - Pillow
+    - pycryptodome
+about:
+  home: null
+  PyPI: https://pypi.org/project/pypdf2
+  summary:
+    A pure-python PDF library capable of splitting, merging, cropping, and
+    transforming PDF files
+  license: null
+extra:
+  recipe-maintainers:
+    - PUT_YOUR_GITHUB_USERNAME_HERE
